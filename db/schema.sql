@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS merchant_db;
+CREATE DATABASE merchant_db;
