@@ -3,8 +3,7 @@ const CardHolder = require('../models/CardHolder')
 const Transaction = require('../models/Transaction')
 
 router.get('/', (req, res) => {
-    const body = req.body
-    console.log(body)
+    res.render('homepage')
 })
 
 module.exports = router
